@@ -170,6 +170,7 @@ int main()
 	//std::cout << 42;
 	int tmp = 0;
 	std::size_t n = sizeof(std::cout << 42);
+	int temp;
 
 	B b;
 	A* a_ptr = &b;
