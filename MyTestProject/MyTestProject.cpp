@@ -168,6 +168,7 @@ int main()
 	constexpr int b = f();
 	static_assert(a != b, "fail");*/
 	//std::cout << 42;
+	int tmp = 0;
 	std::size_t n = sizeof(std::cout << 42);
 
 	B b;
